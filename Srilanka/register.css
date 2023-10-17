@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box ;
+}
+.hero{
+    width:100%;
+    min-height:100vh;
+    background: #292929;
+    display: flex;
+    align-items:center;
+    justify-content:center;   
+    flex-direction: column;
+}
+.hero h1{
+    color:#fff;
+    font-weight:500;
+    margin-bottom:40px;
+
+}
+.signup-box{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    width:90%;
+    max-width: 800px;
+    background: #fff;
+}
+.left-box{
+    padding:50px;
+    background:#6b00d5 ;
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: #fff;
+
+}
+.right-box{
+    padding:50px;
+    flex-basis:50%;
+    flex-grow: 1;    
+}
+.input-box{
+    width:100px;
+    padding: 10px;
+    margin:10px 0;
+    border:1px solid #fff;
+    outline:none;
+    color:#fff;
+    font-size:12px ;
+    background:transparent;
+}

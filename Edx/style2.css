@@ -1,0 +1,38 @@
+
+.registrationform {
+    background: url('img1.webp');
+    background-size: cover;
+    color:black;
+    display: flex;
+   
+   
+}
+.registrationform-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 350px;
+}
+.registrationform-content h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin:  40px 0;
+   
+}
+.registrationform-content p{
+    font-size: 20px;
+    margin: 15px 0;
+    
+}
+.registrationform-content input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+  
+   
+}
+
